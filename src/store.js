@@ -13,7 +13,7 @@ export default {
     options: {
       apiLimit: '100',
       currency: 'usd',
-      percentChange: '1h'
+      percentChange: '24h'
     },
     overlay: {
       active: false,

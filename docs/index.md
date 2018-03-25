@@ -2,8 +2,6 @@
 
 A crypto donut that lets you view and keep track of a portfolio of coins/tokens based on data from [coinmarketcap.com](https://coinmarketcap.com).
 
-[https://giuniperoo.github.io/coinmarketcap-crypto-hodl-donut/](https://giuniperoo.github.io/coinmarketcap-crypto-hodl-donut/)
-
 
 ## where to get it
 
@@ -19,17 +17,17 @@ Two simple steps:
 1. create your portfolio by adding values per coin/token
 2. switch to the donut (press `←`) to view the total value of the portfolio
 
-![](/docs/1.gif)
+![](1.gif)
 
 There are a bunch of key bindings that aim to allow and/or enhance usability. For example, you can use `f` to filter coins/tokens. If the token you're searching for isn't displayed (but you know it is listed on coinmarketcap), you can add it using the input in the lower right corner:
 
-![](/docs/2.gif)
+![](2.gif)
 
 Api queries are set to return 100 items by default. If coins in your portfolio are ranked beyond the top 100 list on coinmarketcap, you'll need to adjust the query. Bring up the api limit options by pressing `a` (shown above).
 
 Finally, you can customize the donut with currency options (press `c`), and with display of percent change over the previous hour, day, or week (press `p`):
 
-![](/docs/3.gif)
+![](3.gif)
 
 ## key bindings
 
@@ -67,6 +65,4 @@ Data is kept in the browser's local storage. If you want to clear the state, jus
 
 Feeling generous?
 
-LTC: `MNDAXALYPdn7P7iMKMZZ1uVk8bAUXE2qVY`  
-BCH: `1NYUDEtyoGjVxrj76DuJ6bU8HFTvRroSU3`  
-ETH: `0x2bE51AcFd6Ac427FD8A7BeB6b97344C70f4c7A0B`
+<script>function shapeshift_click(a,e){e.preventDefault();var link=a.href;window.open(link,'1418115287605','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script> <a onclick="shapeshift_click(this, event);" href="https://shapeshift.io/shifty.html?destination=3F4zUcdYesspUGY1rqZapDn5sLV4ngFhBn&amp;output=BTC"><img src="https://shapeshift.io/images/shifty/small_light_altcoins.png" class="ss-button"></a>
