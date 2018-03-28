@@ -5,7 +5,8 @@ A crypto donut that lets you view and keep track of a portfolio of coins/tokens 
 
 ## where to get it
 
-Chrome Extension: [url]()
+Chrome Extension:
+[https://chrome.google.com/webstore/detail/coinmarketcap-crypto-hodl/igpicpdgfjbanblnpmnndgpdpkcomekc](https://chrome.google.com/webstore/detail/coinmarketcap-crypto-hodl/igpicpdgfjbanblnpmnndgpdpkcomekc)
 
 Otherwise just clone the repo, then `yarn install` and `yarn run dev` to run locally
 
@@ -19,7 +20,7 @@ Two simple steps:
 
 ![](1.gif)
 
-There are a bunch of key bindings that aim to allow and/or enhance usability. For example, you can use `f` to filter coins/tokens. If the token you're searching for isn't displayed (but you know it is listed on coinmarketcap), you can add it using the input in the lower right corner:
+There are a bunch of key bindings that aim to allow or enhance usability. For example, you can use `f` to filter coins/tokens. If the token you're searching for isn't displayed (but you know it is listed on coinmarketcap), you can add it using the input in the lower right corner:
 
 ![](2.gif)
 
