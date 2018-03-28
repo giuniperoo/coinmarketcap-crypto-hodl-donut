@@ -11,11 +11,11 @@
 </template>
 
 <script>
-  import Coin from '@/components/Coin'
+  import Coin from './Coin'
   import store from '../store'
   import { loadCoins } from '../actions'
-  import CoinInput from '@/components/CoinInput'
-  import FilterInput from '@/components/FilterInput'
+  import CoinInput from './CoinInput'
+  import FilterInput from './FilterInput'
 
   export default {
     name: 'Coins',

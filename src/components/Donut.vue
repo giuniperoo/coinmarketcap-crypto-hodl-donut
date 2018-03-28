@@ -11,7 +11,7 @@
   import store from '../store'
   import filter from 'lodash.filter'
   import coins from '../assets/coins.json'
-  import Updater from '@/components/Updater'
+  import Updater from './Updater'
   import donutChart from '../assets/third-party/js/donutChart'
   import { fetchCoinData } from '../services/CoinService'
   import {
@@ -205,7 +205,7 @@
 
       .totalValue {
         margin: 75px 0 41px;
-        font-size: 25px;
+        font-size: 1.55rem;
       }
 
       .arrow {

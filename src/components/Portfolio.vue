@@ -11,7 +11,7 @@
 
 <script>
   import store from '../store'
-  import PortfolioItem from '@/components/PortfolioItem'
+  import PortfolioItem from './PortfolioItem'
   import { loadPortfolioFromLocalStorage } from '../actions'
 
   export default {

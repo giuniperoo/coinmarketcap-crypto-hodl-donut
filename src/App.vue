@@ -2,11 +2,11 @@
   <div>
     <overlay v-if='sharedState.overlay.active' />
     <optionComponent v-if='sharedState.activeOption' />
-    <router-view />
+    <portfolio />
     <div class='viewWindow'>
       <div :class='["slideContainer", sharedState.activeSection]'>
-        <router-view name='donut' />
-        <router-view name='coins' />
+        <donut />
+        <coins />
       </div>
     </div>
   </div>
@@ -15,8 +15,11 @@
 <script>
   import Vue from 'vue'
   import store from './store'
-  import Option from '@/components/Option'
-  import Overlay from '@/components/Overlay'
+  import Coins from '../src/components/Coins'
+  import Donut from '../src/components/Donut'
+  import Option from '../src/components/Option'
+  import Overlay from '../src/components/Overlay'
+  import Portfolio from '../src/components/Portfolio'
   import VueLocalStorage from 'vue-ls'
   import {
     setLocale,
@@ -31,7 +34,10 @@
   export default {
     name: 'App',
     components: {
+      coins: Coins,
+      donut: Donut,
       overlay: Overlay,
+      portfolio: Portfolio,
       optionComponent: Option
     },
     data () {

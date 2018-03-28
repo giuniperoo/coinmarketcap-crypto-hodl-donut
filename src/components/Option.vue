@@ -15,7 +15,7 @@
 
 <script>
   import store from '../store'
-  import OptionInput from '@/components/OptionInput'
+  import OptionInput from './OptionInput'
   import { setOptionType, toggleOptions, toggleOverlay } from '../actions'
 
   export default {

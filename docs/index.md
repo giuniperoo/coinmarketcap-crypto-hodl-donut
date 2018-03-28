@@ -55,7 +55,7 @@ Data is kept in the browser's local storage. If you want to clear the state, jus
 
 ★★★ *"Decent tool. Would be better if Bitcoin Cash were positioned to the left of Bitcoin"* - Roger Ver
 
-★★★★★ *“We only use this for Bitcoinses.  It's not a donut it's a ring. It's ours, it is, and we wants all of it!"* - Peter Thiel
+★★★★★ *“We only use this for Bitcoinses.  It's not a donut it's a ring. It's ours, it is, and we wants it!"* - Peter Thiel
 
 ★★★ *“Blockchain technology has been around for centuries. It's just been forgotten. Is it possible that it was not invented by our civilization? Yes, it is”* - Giorgio Tsoukalos
 

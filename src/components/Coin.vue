@@ -10,7 +10,7 @@
 <script>
   import store from '../store'
   import { setSelectedCoin, toggleOverlay } from '../actions'
-  import InputPopup from '@/components/InputPopup'
+  import InputPopup from './InputPopup'
 
   export default {
     name: 'Coin',
